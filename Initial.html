@@ -1,0 +1,85 @@
+<html>
+<style>
+body {
+   font-family: Arial, sans-serif;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-column {
+   width: 50%;
+   padding: 20px;
+}
+
+.right-column {
+   width: 50%;
+   padding: 20px;
+}
+
+.car-model {
+   margin-bottom: 20px;
+   padding: 20px;
+   border: 1px solid #999;
+   border-radius: 5px;
+}
+
+.car-model img {
+   width: 100%;
+   height: auto;
+}
+
+.car-model p {
+   margin-top: 10px;
+}
+
+.button {
+   display: block;
+   width: 100px;
+   height: 50px;
+   background-color: #00c;
+   color: #fff;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size: 20px;
+   margin-top: 20px;
+}
+</style>
+<body>
+   <div class="container">
+       <div class="left-column">
+           <div class="car-model">
+
+            <input type="submit" value="Compile" class="button">
+           </div>
+           <!-- More car models... -->
+       </div>
+       <div class="right-column">
+           <div class="customization-option">
+               <h2>Address</h2>
+               <input type="text" id="address" name="address">
+           </div>
+           <div class="customization-option">
+               
+               
+           </div>
+           <div class="customization-option">
+               <h2>Private Key</h2>
+               <input type="text" id="private-key" name="private-key">
+           </div>
+           <div class="customization-option">
+               
+               
+           </div>
+           <div class="customization-option">
+               <h2>Deploy</h2>
+               <input type="submit" value="Deploy" class="button">
+           </div>
+       </div>
+   </div>
+</body>
+</html>

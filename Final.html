@@ -1,0 +1,100 @@
+<html>
+<style>
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: #333;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-column, .right-column {
+   width: 50%;
+   padding: 10px;
+}
+
+h1 {
+   font-size: 3em;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+p {
+   font-size: 1.2em;
+   margin-bottom: 20px;
+}
+
+.account-info, .balance-info {
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+}
+
+.account-info p, .balance-info p {
+   text-align: center;
+}
+
+.account-info select, .balance-info select {
+   width: 100%;
+   padding: 10px;
+   font-size: 1.2em;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.account-info button, .balance-info button {
+   display: block;
+   margin: 20px auto;
+   padding: 10px 20px;
+   font-size: 1.2em;
+   background-color: #0078d4;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.account-info button:hover, .balance-info button:hover {
+   background-color: #0056b3;
+}
+</style>
+<body>
+   <div class="container">
+       <div class="left-column">
+           <h1>Send MetaCoins</h1>
+           <div class="account-info">
+               <p>Select Account Address</p>
+               <select>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+               </select>
+               <p>How much metacoin you want to send?</p>
+               <input type="number">
+               
+           </div>
+           <div class="account-info">
+               <p>Enter the address to which you want to send metaCoins</p>
+               <input type="text">
+               <button>Submit</button>
+           </div>
+       </div>
+       <div class="right-column">
+           <h1>Find Balance</h1>
+           <div class="balance-info">
+               <p>Select Account Address</p>
+               <select>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+                   <option>0x9AC0cf3579f6bC63e13Ba4dD7b7968Dd919A1B25</option>
+               </select>
+               <button>Check Balance</button>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
